@@ -1,8 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
   line-height: 1.35;
-  box-sizing: border-box;
+
 }
 
 body {
@@ -20,10 +24,14 @@ header {
   font-variant: small-caps;
 }
 
+#title-page {
+  position: relative;
+}
+
 #subtitle {
   visibility: hidden;
   position: absolute;
-  right: 15%;
+  right: 10%;
 }
 
 .headerimg {
@@ -43,9 +51,61 @@ nav {
   bottom: 25%;
   text-align: center;
   margin: auto;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
+nav, h1, h4 {
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
 }
 
 li {
   display: inline;
   padding: 0 1em;
+}
+
+main {
+  margin-top: -10%;
+}
+
+.display-project-box {
+  display: block;
+  border: 5px solid black;
+  width: 200px;
+  height: 300px;
+  margin: 2% 2% 2% 5%;
+  float: left;
+  position: relative;
+}
+
+.display-project-box:hover {
+  border: 10px solid black;
+
+}
+
+.display-project-box-icon {
+  border: 2px solid black;
+  margin: 5% auto;
+  width: 160px;
+  height: 200px;
+}
+
+.display-project-box-text {
+  font-size: 16px;
+  margin: 5% auto;
+  text-align: center;
+}
+
+span {
+}
+
+footer {
+  clear:both;
+  background-color: black;
+  color: white;
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 0;
+  position: static;
 }
