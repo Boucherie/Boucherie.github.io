@@ -14,12 +14,6 @@ body {
 
 }
 
-
-h1 {
-
-}
-
-
 header {
   font-variant: small-caps;
 }
@@ -32,6 +26,7 @@ header {
   visibility: hidden;
   position: absolute;
   right: 10%;
+  padding: 5px;
 }
 
 .headerimg {
@@ -43,7 +38,6 @@ header {
   margin: auto;
   margin-top: -5%;
   background-size: contain;
-
 }
 
 nav {
@@ -51,11 +45,9 @@ nav {
   bottom: 25%;
   text-align: center;
   margin: auto;
-  border-bottom: 2px solid black;
-  border-top: 2px solid black;
 }
 
-nav, h1, h4 {
+nav, h1, h4, .display-project-box-text {
   border-bottom: 2px solid black;
   border-top: 2px solid black;
 }
@@ -65,8 +57,13 @@ li {
   padding: 0 1em;
 }
 
+li:hover {
+  font-weight: bold;
+}
+
 main {
-  margin-top: -10%;
+  margin: -5% 0 auto;
+
 }
 
 .display-project-box {
@@ -81,7 +78,6 @@ main {
 
 .display-project-box:hover {
   border: 10px solid black;
-
 }
 
 .display-project-box-icon {
@@ -98,12 +94,14 @@ main {
 }
 
 span {
+  vertical-align: sub;
 }
 
 footer {
   clear:both;
   background-color: black;
   color: white;
+  width: 100%
   position: relative;
   margin-top: 1em;
   margin-bottom: 0;
