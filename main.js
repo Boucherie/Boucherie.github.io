@@ -16,4 +16,9 @@ document.addEventListener('DOMContentLoaded', function(){
 
   subTitle.addEventListener("mouseover", addSubTitleBorder);
 
+
+
+  // var projectLinks = querySelector(".display-project-box-icon");
+
+
 });

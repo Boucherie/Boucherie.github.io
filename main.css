@@ -74,10 +74,12 @@ main {
   margin: 2% 2% 2% 5%;
   float: left;
   position: relative;
+  opacity:0.6;
 }
 
 .display-project-box:hover {
   border: 10px solid black;
+  opacity: 1;
 }
 
 .display-project-box-icon {
@@ -85,7 +87,12 @@ main {
   margin: 5% auto;
   width: 160px;
   height: 200px;
+  background-image: url("img/ink.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
+
+
 
 .display-project-box-text {
   font-size: 16px;
