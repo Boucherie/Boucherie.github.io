@@ -98,6 +98,10 @@ main {
   background-image: url("img/d3-intro.png");
 }
 
+#darProyectos {
+  background-image: url("img/progreso-indiv-earnings.png")
+}
+
 .display-project-box-text {
   font-size: 16px;
   margin: 5% auto;
@@ -120,4 +124,5 @@ footer {
   margin-top: 1em;
   margin-bottom: 0;
   position: static;
+  padding: 0 0.25rem;
 }
