@@ -99,7 +99,11 @@ main {
 }
 
 #darProyectos {
-  background-image: url("img/progreso-indiv-earnings.png")
+  background-image: url("img/DAR-0930.png");
+}
+
+#lcboApp {
+  background-image: url("img/DAR-0930.png");
 }
 
 .display-project-box-text {
