@@ -106,6 +106,10 @@ main {
   background-image: url("img/LCBO-api-0930.png");
 }
 
+#twentyOneArtists {
+  background-image: url("img/21-artists.png");
+}
+
 .display-project-box-text {
   font-size: 16px;
   margin: 5% auto;
