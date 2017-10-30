@@ -110,6 +110,11 @@ main {
   background-image: url("img/21-artists.png");
 }
 
+#communityChest {
+  background-image: url("img/communitychest.png");
+  box-sizing: border-box;
+}
+
 .display-project-box-text {
   font-size: 16px;
   margin: 5% auto;
