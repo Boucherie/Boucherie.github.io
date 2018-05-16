@@ -4,17 +4,17 @@ document.addEventListener('DOMContentLoaded', function(){
 
   var titlePage = document.querySelector("#title-page");
 
-  function showSubTitle() {
-    subTitle.style.visibility = "visible";
-  };
+  // function showSubTitle() {
+  //   subTitle.style.visibility = "visible";
+  // };
 
-  function addSubTitleBorder() {
-    subTitle.style.border = "2px solid black";
-  };
+  // function addSubTitleBorder() {
+  //   subTitle.style.border = "2px solid black";
+  // };
 
-  titlePage.addEventListener("mouseover", showSubTitle);
+  // titlePage.addEventListener("mouseover", showSubTitle);
 
-  subTitle.addEventListener("mouseover", addSubTitleBorder);
+  // subTitle.addEventListener("mouseover", addSubTitleBorder);
 
 
 
