@@ -43,7 +43,7 @@ nav .skills {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-
+  flex-wrap: wrap;
 }
 
 
@@ -58,7 +58,9 @@ nav ul li a:hover {
 
 .skill-icons {
   width: 1.5rem;
+  margin: 3% 8%;
 }
+
 
 .skill-icons img {
   width: 100%;
