@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    <title>Fitness Calculator 🏃</title>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bigfishtv-turret/4.0.0/turret.min.css" crossorigin="anonymous"> -->
+
+    <script src="js/main.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Fitness Calculator</h1>
+
+    </div>
+    <div class="main">
+      <p>This calculator gives an alternate fitness measurement to BMI (body mass index). This measurement takes your current weight, integrates it with physical measurements and generates a body fat percentage value.</p>
+
+        <form id="gender-choice" action="index.html" method="post">
+          <input type="radio" name="selection" value="male">
+          <label for="male">Male</label>
+          <input type="radio" name="selection" value="female">
+          <label for="female">Female</label>
+
+        <ul>
+
+          <li>
+            <div class="input-group">
+              <label class="inputs" for="init-weight">Enter Starting Weight (lbs): </label>
+              <input class="inputs" id="init-weight" type="text" name="init-weight">
+            </div>
+          </li>
+          <li>
+            <div class="input-group">
+              <label class="inputs" for="current-weight">Enter Current Weight (lbs): </label>
+              <input class="inputs" id="current-weight" type="text" name="current-weight">
+            </div>
+          </li>
+        </ul>
+      </form>
+      <button id="submitWeight">Submit</button>
+
+      <div class="outputs">
+        <h2 id="weight-diff"></h2>
+      </div>
+
+      <div class="measurements">
+
+        <ul>
+          <li>
+            <div class="input-group">
+              <label class="inputs" for="wrist-circ">Enter Wrist Circumference (inches): </label>
+              <input class="inputs" id="wrist-circ" type="text" name="wrist-circ">
+            </div>
+
+        </li>
+          <li>
+            <div class="input-group">
+              <label class="inputs" for="forearm-circ">Enter Forearm Circumference (inches): </label>
+              <input class="inputs" id="forearm-circ" type="text" name="forearm-circ">
+            </div>
+
+          </li>
+          <li>
+            <div class="input-group">
+              <label class="inputs" for="waist-circ">Enter Waist Circumference (inches): </label>
+              <input class="inputs" id="waist-circ" type="text" name="waist-circ">
+            </div>
+
+        </li>
+          <li>
+            <div class="input-group">
+              <label class="inputs" for="hip-circ">Enter Hip Circumference (inches): </label>
+              <input class="inputs" id="hip-circ" type="text" name="hip-circ">
+            </div>
+
+          </li>
+        </ul>
+        <button id="submit-circs">Submit</button>
+
+      </div>
+      <div class="outputs">
+        <h2 id="bf-diff"></h2>
+
+      </div>
+    <p><a href="https://www.builtlean.com/2010/08/03/ideal-body-fat-percentage-chart/">Find out what this score means!</a>
+    </p>
+  </div>
+
+
+  <script>
+
+  </script>
+
+  </body>
+</html>

@@ -161,6 +161,16 @@ main {
 
 }
 
+#skillTracker {
+  background-image: url("img/skill-tracker.png");
+
+}
+
+#fitnessCalc {
+  background-image: url("img/fitness-calc.png");
+
+}
+
 .display-project-box-text {
   font-size: 16px;
   margin: 5% auto;
